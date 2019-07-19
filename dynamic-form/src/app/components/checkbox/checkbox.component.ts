@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormGroup} from '@angular/forms';
+import {FormBuilder, FormGroup} from '@angular/forms';
 import {FieldConfig} from '../../field.interface';
 
 @Component({
@@ -19,6 +19,7 @@ export class CheckboxComponent implements OnInit {
   constructor() {
   }
 
-  ngOnInit() {
+  ngOnInit()  {
+
   }
 }
